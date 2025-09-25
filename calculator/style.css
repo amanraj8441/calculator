@@ -1,0 +1,55 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.button{
+    padding: 20px;
+    margin: 0 1.8px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 53px;
+}
+
+.sd{
+    background-color: rgb(255, 239, 30);
+}
+
+.md{
+    background-color: grey;
+}
+
+.up{
+    background-color: lightgray;
+}
+
+.row{
+    margin:6px 0;
+}
+
+.row input{
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.items-center{
+    align-items: center;
+}
